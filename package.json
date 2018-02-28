@@ -1,12 +1,12 @@
 {
   "name": "meer-pack",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "meer pack tool",
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "build": "webpack --config index.js",
-    "watch": "webpack --config index.js --watch"
+    "build": "webpack --config example/build.js",
+    "watch": "webpack --config example/build.js --watch"
   },
   "repository": {
     "type": "git",

@@ -7,7 +7,10 @@ module.exports = function webpackConfig(config) {
         entry,
         output: {
             filename: outputConfig.filename,
-            path: path.resolve(__dirname, '../../../' + outputConfig.path)
+            path: path.resolve(__dirname, '../../../' + outputConfig.path),
+            // path: path.resolve(__dirname, '../' + outputConfig.path),
+            library: outputConfig.library,
+            libraryTarget: outputConfig.libraryTarget
         },
         plugins: [
             new CleanWebpackPlugin(['dist'])
