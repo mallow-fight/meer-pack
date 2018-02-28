@@ -4,7 +4,9 @@
   "description": "meer pack tool",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "build": "webpack --config index.js",
+    "watch": "webpack --config index.js --watch"
   },
   "repository": {
     "type": "git",
@@ -21,8 +23,10 @@
   },
   "homepage": "https://github.com/mallow-fight/meer-pack#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
     "eslint": "^4.18.1",
-    "eslint-config-google": "^0.9.1"
+    "eslint-config-google": "^0.9.1",
+    "webpack-cli": "^2.0.9"
   },
   "dependencies": {
     "webpack": "^4.0.1"
