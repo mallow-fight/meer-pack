@@ -1,0 +1,30 @@
+{
+  "name": "meer-pack",
+  "version": "0.0.1",
+  "description": "meer pack tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallow-fight/meer-pack.git"
+  },
+  "keywords": [
+    "meer",
+    "pack"
+  ],
+  "author": "mallow <861674705@qq.com> (http://www.mallowfight.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mallow-fight/meer-pack/issues"
+  },
+  "homepage": "https://github.com/mallow-fight/meer-pack#readme",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {
+    "webpack": "^4.0.1"
+  }
+}
