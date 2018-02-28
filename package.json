@@ -1,6 +1,6 @@
 {
   "name": "meer-pack",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "meer pack tool",
   "main": "index.js",
   "scripts": {
